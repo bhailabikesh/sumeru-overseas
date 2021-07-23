@@ -1,0 +1,194 @@
+/* Header navbar*/
+.header {
+    
+    &__navbar {
+        background: #fff;
+        box-shadow: 2px 2px 5px #ccc, 0px 0px 0px #ccc;
+
+        & .navbar-brand {
+            display: inline-block;
+
+            @media only screen and (max-width: 60rem) {
+                width: 70%;
+            }
+        }
+        &--logo {
+            width: auto;
+            height: 9rem;
+
+            @media only screen and (max-width: 60rem) {
+                height: auto;
+            }
+        }
+
+        & .nav-link {
+            color: $color-grey-dark !important;
+            font-size: 1.2rem;
+            font-family: $font-display;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 0 0.8rem;
+            padding: 4.5rem 0;
+
+            @media only screen and (max-width: 90rem) {
+                padding: 1rem 0 !important;
+            }
+        }
+    }
+}
+
+
+.dropdown-menu {
+    border-radius: 0px !important;
+    border: none;
+    padding: 0 !important;
+    border-top: 2px solid $color-secondary !important;
+
+    & li {
+        padding: 0rem 5rem 0 0;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #ddd;
+        }
+    }
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 1rem 1.5rem;
+    text-transform: none;
+    font-size: 1.3rem;
+    font-family: $font-display;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.dropdown .dropdown-item.active, 
+.dropdown .dropdown-item:active {
+    color: $color-secondary;
+}
+
+.dropdown-item:focus, .dropdown-item:hover, .dropdown-item:active {
+    background-color: transparent !important;
+    color: $color-secondary !important;
+}
+
+
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* End of Header navbar*/
+
+/* Footer */
+.footer {
+    background: $color-primary-light;
+    
+    &__top {
+        padding: 7rem 0;
+    }
+
+    &__content {
+        display: block;
+        overflow: hidden;
+    }
+
+    &__logo {
+        margin-bottom: 1.5rem;
+    }
+
+    &__head {
+
+        & p {
+            color: $color-light;
+            font-size: 1.4rem;
+            text-align: left;
+            line-height: 2.4rem;
+        }
+
+        & h4 {
+            color: #ddd;
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: $font-display;
+        }
+    }
+
+    &__icons {
+        margin-top: 2rem;
+
+         & ul li {
+             display: inline-block;
+
+             & a {
+                color: $color-light;
+                display: block;
+                font-size: 1.6rem;
+                line-height: 2.8rem;
+                text-align: center;
+                margin-right: .5rem;
+                width: 30px;
+                height: 30px;
+                border: 1px solid #ddd;
+                border-radius: 50%;
+
+                &:hover {
+                    background: $color-secondary;
+                    border: 1px solid $color-secondary;
+                }
+             }
+         }
+    }
+
+    &__list {
+
+        & li:first-child a {
+            padding-top: 0px;
+        }
+
+        & li a {
+            color: $color-light;
+            padding: 3px 0px 3px 20px;
+            display: block;
+            position: relative;
+            font-weight: 500;
+            font-size: 1.4rem;
+
+            &:hover {
+                color: $color-secondary;
+                text-decoration: none;
+            }
+
+            &::after {
+                position: absolute;
+                font-family: "Font Awesome 5 Free";
+                content: "\f058";
+                right: auto;
+                top: 2px;
+                font-size: 12px;
+                left: 0;
+            }
+        }
+    }
+
+    &__bottom {
+        padding: 25px 0;
+        border-top: 1px solid #333;
+    }
+
+}
+
+.copyright p {
+    color: $color-light;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+.copyright a {
+    color: $color-secondary;
+}
+/* End of Footer */

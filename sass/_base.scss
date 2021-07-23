@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; //1rem = 10px
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $font-primary;
+    font-size: $default-font-size;
+    color: $color-grey !important;
+}
+
+.container {
+    max-width: 1170px !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: $color-grey;
+    margin: 0 0 1.5rem;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
