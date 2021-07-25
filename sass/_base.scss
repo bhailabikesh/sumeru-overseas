@@ -23,6 +23,7 @@ body {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 p {
@@ -34,4 +35,46 @@ ul {
     list-style: outside none none;
     margin: 0;
     padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+.section-heading {
+    margin-bottom: 6rem;
+    position: relative;
+
+    & h2 {
+        display: inline-block;
+        font-size: 4rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: $color-primary;
+        font-family: $font-main;
+    }
+
+    & span {
+        color: $color-secondary;
+    }
+
+    &::after {
+        border: 1px solid $color-secondary;
+        bottom: -20px;
+        content: "";
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        width: 60px;
+        right: 0;
+    }
+}
+
+::selection {
+    background: $color-secondary;
+    text-shadow: none;
+}
+
+.main {
+    padding: 3rem 0;
 }

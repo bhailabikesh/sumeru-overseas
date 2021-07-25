@@ -9,7 +9,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <ul class="mb-2 ml-auto navbar-nav mb-lg-0">
                     <li class="nav-item">
                         <a href="#" class="nav-link header__navbar--nav-active">Home</a>
                     </li>
@@ -19,8 +19,8 @@
                             About Us
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Company Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Team</a></li>
+                            <li><a class="dropdown-item" href="/index.php">Company Profile</a></li>
+                            <li><a class="dropdown-item" href="/team.php">Team</a></li>
                         </ul>
                     </li>
 
@@ -29,9 +29,9 @@
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Overseas Recruitment</a></li>
-                            <li><a class="dropdown-item" href="#">Training & Orientation</a></li>
-                            <li><a class="dropdown-item" href="#">Travel Management</a></li>
+                            <li><a class="dropdown-item" href="/recruitment.php">Overseas Recruitment</a></li>
+                            <li><a class="dropdown-item" href="/training.php">Training & Orientation</a></li>
+                            <li><a class="dropdown-item" href="/travel.php">Travel Management</a></li>
                         </ul>
                     </li>
 
@@ -62,7 +62,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contacts</a>
+                        <a href="/contact.php" class="nav-link">Contacts</a>
                     </li>
                 </ul>
             </div>

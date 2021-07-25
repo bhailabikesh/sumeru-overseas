@@ -27,11 +27,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="banner__heading text-center">
+                    <div class="text-center banner__heading">
                         <h3>About us</h3>
 
                         <nav aria-label="breadcrumb" class="mt-4">
-                            <ol class="breadcrumb banner__breadcrumb bg-transparent justify-content-center">
+                            <ol class="bg-transparent breadcrumb banner__breadcrumb justify-content-center">
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">About us</li>
                             </ol>
@@ -44,10 +44,10 @@
     <!-- =============== End of Banner =============== -->
     
     <!-- =============== Background =============== -->
-    <div class="background py-5">
+    <div class="py-5 background">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-10 mx-auto mb-4">
+                <div class="mx-auto mb-4 col-lg-6 col-sm-10">
                     <h4 class="content-header">
                         Company Background
                     </h4>
@@ -65,7 +65,7 @@
                     </p>
                 </div>
 
-                <div class="col-lg-6 col-sm-10 mx-auto mb-4">
+                <div class="mx-auto mb-4 col-lg-6 col-sm-10">
                     <img src="img/About1.jpg" alt="" class="background__img">
                 </div>
             </div>
@@ -74,17 +74,17 @@
     <!-- =============== End of Background =============== -->
     
     <!-- =============== Mission/Vision =============== -->
-    <div class="mission py-5">
+    <div class="py-5 mission">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-10 mx-auto mb-4">
-                    <div class="video-inner text-center">
+                <div class="mx-auto mb-4 col-lg-6 col-sm-10">
+                    <div class="text-center video-inner">
                         <div class="video-content">
 
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-10 mx-auto mb-4">
+                <div class="mx-auto mb-4 col-lg-6 col-sm-10">
                     <div class="video-text">
                         <h4 class="content-header mission__header">
                             Mission/Vision
@@ -105,10 +105,10 @@
     <!-- =============== End of Mission/Vision =============== -->
     
     <!-- =============== What We Do =============== -->
-    <div class="service py-5">
+    <div class="py-5 service">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-10 mx-auto mb-4">
+                <div class="mx-auto mb-4 col-lg-6 col-sm-10">
                     <div class="video-text">
                         <h4 class="content-header">
                             What we do
@@ -118,7 +118,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-10 mx-auto mb-4">
+                <div class="mx-auto mb-4 col-lg-6 col-sm-10">
                     <img src="img/About3.jpg" alt="">
                 </div>
             </div>
