@@ -2,7 +2,7 @@
 .header {
     
     &__navbar {
-        background: #fff;
+        background: $color-white;
         box-shadow: 2px 2px 5px #ccc, 0px 0px 0px #ccc;
 
         & .navbar-brand {
@@ -48,7 +48,7 @@
         padding: 0rem 5rem 0 0;
 
         &:not(:last-child) {
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid $color-light;
         }
     }
 }
@@ -109,7 +109,7 @@
         }
 
         & h4 {
-            color: #ddd;
+            color: $color-light;
             font-size: 18px;
             margin-bottom: 20px;
             text-transform: uppercase;
@@ -133,7 +133,7 @@
                 margin-right: .5rem;
                 width: 30px;
                 height: 30px;
-                border: 1px solid #ddd;
+                border: 1px solid $color-light;
                 border-radius: 50%;
 
                 &:hover {

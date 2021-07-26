@@ -4,7 +4,8 @@ $color-primary: #293891;
 $color-primary-light: #071333;
 $color-secondary: #25AAE1;
 
-$color-white: #f9f9f9;
+$color-white: #fff;
+$color-white-light: #f9f9f9;
 $color-grey: #777;
 $color-grey-dark: #444;
 $color-light: #dddddd;
@@ -19,6 +20,3 @@ $font-main: 'Raleway', sans-serif !important;
 // FONT SIZE
 
 $default-font-size: 1.4rem;
-
-
-$breadcrumb-divider: quote(">") !important;

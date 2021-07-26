@@ -19,10 +19,6 @@
 
     }
 
-    &__img {
-
-    }
-
     &__content {
         position: absolute;
         top: 70%;
@@ -41,7 +37,7 @@
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 20px;
-                color: #fff;
+                color: $color-white;
                 margin-bottom: 5px;
             }
 
@@ -58,7 +54,7 @@
             opacity: 0;
 
             & p {
-                color: #fff;
+                color: $color-white;
                 letter-spacing: 1px;
                 font-size: 1.4rem;
                 line-height: 2.4rem;
@@ -75,7 +71,7 @@
                 display: inline-block;
 
                 & a {
-                    color: #fff;
+                    color: $color-white;
                     display: block;
                     width: 34px;
                     height: 34px;

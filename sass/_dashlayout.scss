@@ -21,7 +21,7 @@
 
                 &.active a {
                     background: $color-secondary none repeat scroll 0 0;
-                    color: #fff;
+                    color: $color-white;
                     position: relative;
 
                     &::after {
@@ -35,8 +35,8 @@
                 }
 
                 & a {
-                    background: #f9f9f9;
-                    color: #444;
+                    background: $color-white-light;
+                    color: $color-grey-dark;
                     display: block;
                     font-size: 15px;
                     font-weight: 700;
@@ -47,7 +47,7 @@
                     transition: all 0.3s ease 0s;
 
                     &:hover {
-                        color: #fff;
+                        color: $color-white;
                         background-color: $color-secondary;
 
                         &::after {
@@ -76,8 +76,8 @@
 }
 
 .down-btn {
-    border: 1px solid #25AAE1;
-    color: #fff;
+    border: 1px solid $color-secondary;
+    color: $color-white;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -88,33 +88,52 @@
     text-transform: uppercase;
     transition: all 0.4s ease 0s;
     z-index: 222;
-    background: #25AAE1;
+    background: $color-secondary;
     width: 100%;
     position: relative;
     border-radius: 3px;
 
     &:hover {
-        color: #25AAE1;
-        background: #fff;
-        border: 1px solid #25AAE1;
+        color: $color-secondary;
+        background: $color-white;
+        border: 1px solid $color-secondary;
         text-decoration: none;
     }
 }
 
 .single-well {
-    margin-top: 20px;
+    margin-top: 20px; 
+
+    & h3 {
+        color: $color-primary;
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 32px;
+        font-family: $font-main;
+        font-weight: 700;
+    }
+
+    & h4 {
+        font-family: $font-display;
+        margin: 0 0 15px;
+        color: $color-primary;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    & h5 {
+        font-family: $font-display;
+        margin:  2rem 0;
+        color: $color-primary;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 26px;
+    }
+    
 }
 
-.single-well h3 {
-    color: $color-primary;
-    margin-bottom: 15px;
-    font-size: 30px;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
-
-
+.single-well, 
 .single-well.last-part p {
     margin-bottom: 0px;
     font-size: 1.4rem;
@@ -125,27 +144,8 @@
     color: #666;
 }
 
-.single-well h4 {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 0 15px;
-    color: #293891;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 26px;
-}
-
-
-.single-well h5 {
-    font-family: 'Montserrat', sans-serif;
-    margin:  2rem 0;
-    color: #293891;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 26px;
-}
-
 .marker-list li {
-    color: #444;
+    color: $color-grey-dark;
     padding-left: 30px;
     margin: 10px 0px;
     position: relative;
