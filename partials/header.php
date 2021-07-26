@@ -1,9 +1,9 @@
 <!-- =============== Header =============== -->
-<header class="header">
+<header class="header" id="header">
     <nav class="navbar navbar-expand-lg navbar-light header__navbar">
         <div class="container">
-            <a href="/" class="navbar-brand">
-                <img src="img/logo.png" alt="company logo" class="header__navbar--logo">
+            <a href="/sumeru-overseas/index.php" class="navbar-brand">
+                <img src="img/logo.png" alt="company logo" class="header__navbar--logo" id="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

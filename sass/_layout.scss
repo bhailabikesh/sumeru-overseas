@@ -29,10 +29,16 @@
             text-transform: uppercase;
             margin: 0 0.8rem;
             padding: 4.5rem 0;
+            transition: all .5s;
 
             @media only screen and (max-width: 90rem) {
                 padding: 1rem 0 !important;
             }
+
+            &:hover{
+                color: $color-secondary !important;
+            }
+
         }
     }
 }

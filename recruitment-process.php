@@ -144,7 +144,13 @@
     <?php include "./partials/footer.php" ?>
     <!-- =============== End of Footer =============== -->
 
+    <a href="#" class="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    
     <!-- JS -->
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

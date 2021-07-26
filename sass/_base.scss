@@ -102,3 +102,12 @@ a, a:hover {
     opacity: 1;
     color: $color-white;
   }
+
+  
+#header.header-scrolled {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.img-size {
+    width: 75%;
+}
