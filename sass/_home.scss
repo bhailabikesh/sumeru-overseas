@@ -48,9 +48,11 @@
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: #fff !important;
-    content: $breadcrumb-divider;
+    content: '\f054' !important;
     margin: 0 1rem;
-}
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+}0
 
 
 .content-header {
@@ -125,6 +127,6 @@
     left: 0;
     top: 3px;
     font-family: "Font Awesome 5 Free";
-    color: #25AAE1;
-    font-weight: 700;
+    color: $color-secondary;
+    font-weight: 400;
 }

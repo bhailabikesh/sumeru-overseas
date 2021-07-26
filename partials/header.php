@@ -19,8 +19,8 @@
                             About Us
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/index.php">Company Profile</a></li>
-                            <li><a class="dropdown-item" href="/team.php">Team</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/index.php">Company Profile</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/team.php">Team</a></li>
                         </ul>
                     </li>
 
@@ -29,9 +29,9 @@
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/recruitment.php">Overseas Recruitment</a></li>
-                            <li><a class="dropdown-item" href="/training.php">Training & Orientation</a></li>
-                            <li><a class="dropdown-item" href="/travel.php">Travel Management</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/recruitment.php">Overseas Recruitment</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/training.php">Training & Orientation</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/travel.php">Travel Management</a></li>
                         </ul>
                     </li>
 
@@ -40,10 +40,10 @@
                             Procedures
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Documentation</a></li>
-                            <li><a class="dropdown-item" href="#">Recruitment Process</a></li>
-                            <li><a class="dropdown-item" href="#">Deployment Procedure</a></li>
-                            <li><a class="dropdown-item" href="#">Visa Processing</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/documentation.php">Documentation</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/recruitment-process.php">Recruitment Process</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/deployment.php">Deployment Procedure</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/visa.php">Visa Processing</a></li>
                         </ul>
                     </li>
                     
@@ -62,7 +62,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="/contact.php" class="nav-link">Contacts</a>
+                        <a href="/sumeru-overseas/contact.php" class="nav-link">Contacts</a>
                     </li>
                 </ul>
             </div>
