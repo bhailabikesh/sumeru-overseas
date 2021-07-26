@@ -52,13 +52,13 @@
                             Gallery
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Image Gallery</a></li>
-                            <li><a class="dropdown-item" href="#">Video Gallery</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/image-gallery.php">Image Gallery</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/video-gallery.php">Video Gallery</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Download</a>
+                        <a href="/sumeru-overseas/downloads.php" class="nav-link">Download</a>
                     </li>
 
                     <li class="nav-item">
