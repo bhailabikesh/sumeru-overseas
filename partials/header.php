@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="mb-2 ml-auto navbar-nav mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link header__navbar--nav-active">Home</a>
+                        <a href="/sumeru-overseas/" class="nav-link header__navbar--nav-active">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -19,7 +19,7 @@
                             About Us
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/sumeru-overseas/index.php">Company Profile</a></li>
+                            <li><a class="dropdown-item" href="/sumeru-overseas/about.php">Company Profile</a></li>
                             <li><a class="dropdown-item" href="/sumeru-overseas/team.php">Team</a></li>
                         </ul>
                     </li>

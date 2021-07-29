@@ -30,3 +30,29 @@ $(document).ready(function(){
   });
 
  
+  $(".owl-carousel").owlCarousel({
+    nav: true,
+    navText: [
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>'
+    ],
+    margin:20,
+    dots: false,
+    responsiveClass: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    navSpeed: 2000,
+    loop: true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:4,
+            nav: true
+        }
+    }
+});

@@ -111,3 +111,43 @@ a, a:hover {
 .img-size {
     width: 75%;
 }
+
+.section-title {
+    &__heading {
+        font-size: 4rem;
+        color: $color-primary;
+        position: relative;
+        margin-bottom: 3rem;
+        display: inline-block;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 4px;
+            background: $color-primary;
+        }
+
+        & span {
+            font-weight: 600;
+            display: inline-block;
+            position: relative;
+            padding-bottom: 2rem;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 4px;
+                background: #f7931e;
+                z-index: 1;
+
+            } 
+        }
+
+    }
+}
